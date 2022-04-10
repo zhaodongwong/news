@@ -105,14 +105,24 @@ function Home(){
       </div>
       <div className="line">
       </div>
-      <div className="flex items-center flex flex-col w-full bg-stone-400 px-8 py-6 text-5xl mt-3">
+    </div>
+  )
+}
+   
+
+
+function Layout(){
+  return<>
+    <Navbar/>
+    <Outlet/>
+  <div className="flex items-center flex flex-col w-full bg-stone-400 px-8 py-6 text-5xl mt-5 ">
       <div className="flex flex-row p-2">
       <Icon icon="wpf:news" color="white" />
         <h2 className="text-white pl-2">NEWS</h2>
         </div>
       </div>
-      <div className="flex flex-row justify-between px-20 text-white width-full bg-stone-400">
-      <div className="pl-16 pt-16 font-['Playfair_Display']">
+      <div className="flex flex-row justify-between px-20 text-white w-full bg-stone-400">
+      <div className="font-['Playfair_Display'] pl-16 pt-16">
         <h1>
           News:
         </h1>
@@ -241,23 +251,13 @@ function Home(){
         </div>
       </div>
       </div>
-    </div>
-  )
-}
-   
-
-
-function Layout(){
-  return<>
-    <Navbar/>
-    <Outlet/>
     </>
 }
 
 
 function About(){
   return(
-  <div className='flex-1 flex items-center justify-center text-3xl'>      
+  <div className='flex-1 flex items-center justify-center text-3xl flex flex-col'>      
   <h1>
    NOTHING HERE SORRY
   </h1>
@@ -304,10 +304,31 @@ function Contact(){
 
 function Putin(){
   return(
-  <div className='flex-1 flex items-center justify-center text-3xl'>      
-  <h1>
-   putinjfkfjafshfjkfhsdhfkjejkehe
-  </h1>
+  <div className='justify-center flex items-center text-center text-3xl flex flex-col'>      
+  <img src='https://e3.365dm.com/22/03/2048x1152/skynews-ukraine-russia-teaser_5706280.jpg' className='putin-1 mt-3'/>
+  <h25 className="text-5xl font-['Lobster'] ">
+  Ukraine war: What are the chances of a peace deal with Russia to end the conflict?
+  </h25>
+  <h25 className="pl-5 pr-5">
+  An expert on Russian foreign and security policy told Sky News it is "early days" regarding any breakthrough - but there have been upbeat assessments over a potential deal from Ukrainian and Russian delegates.
+  </h25>
+  <h25 className="mt-5 pl-5 pr-5">
+  Hopes have grown for a breakthrough in peace talks between Ukraine and Russia with some suggestions of "results in a matter of days".
+  </h25>
+  <h25 className="mt-5 pl-5 pr-5">
+  But some experts believe the point has not yet been reached to make the brokering of a deal likely.
+Sky News takes a look at the progress of the talks and what the chances are of a deal to end the conflict.
+  </h25>
+  <h25 className="mt-5 pl-5 pr-5">
+  What stage have the talks reached?
+  </h25>
+  <h25 className="mt-5 pl-5 pr-5">
+  A further round of talks between Ukraine and Russia were held today - but will continue tomorrow.
+
+It comes after Russian and Ukrainian officials had been giving their most upbeat assessments yet amid suggestions there could be positive results within days.
+
+US Deputy Secretary of State Wendy Sherman said Russia was showing signs of willingness to engage in substantive negotiations about bringing an end to the conflict in which thousands have died.
+  </h25>
   </div>
   )
 }
