@@ -54,7 +54,7 @@ function Home(){
       </div>
       </Link>
       </div>
-      <div className='relative flex flex-row justify-between pl-10 pr-5'>
+      <div className='relative flex flex-row justify-between pl-10 pr-5 gap-12'>
         <Link to="benzema">
         <img src='https://library.sportingnews.com/2022-04/Karim%20Benzema%20Real%20Madrid%20vs.%20Chelsea%20040622.jpg' className='benzema mt-3'/>
         </Link>
@@ -62,7 +62,7 @@ function Home(){
         <img src="https://static.businesstimes.com.sg/s3fs-public/image/2022/03/08/causeway-sph_0.jpg" className='mls-sg '/>
         </Link>
       </div>
-      <div className='relative flex flex-row justify-between pl-10'>
+      <div className='relative flex flex-row justify-between pl-10 gap-12'>
         <Link to="benzema">
       <h9 className="text-stone-400">
         Champions League hat tricks in quarterfinals: Karim Benzema joins elite list of scorers after three goals vs. Chelsea
@@ -87,7 +87,7 @@ function Home(){
       <div className='line'>
 
       </div>
-      <div className='relative flex flex-row justify-between pl-10 pr-5'>
+      <div className='relative flex flex-row justify-between pl-10 pr-5 gap-12'>
         <Link to="covid">
         <img src='https://apicms.thestar.com.my/uploads/images/2022/04/07/1542199.png' className='benzema mt-3'/>
         </Link>
@@ -95,7 +95,7 @@ function Home(){
         <img src="https://images.squarespace-cdn.com/content/v1/5a5dbe4632601eb31977f947/1632394018914-P5455VRGX8QURK0AF30U/AF20200429_First+flight+resume+-165.jpg" className='mls-sg '/>
         </Link>
       </div>
-      <div className='relative flex flex-row justify-between'>
+      <div className='relative flex flex-row justify-between gap-12'>
       <h13 className="pl-10 text-stone-400">
       Covid-19 Watch: 12,105 new cases, says Health Ministry
         </h13>
