@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-gradient-to-br from-sky-400 to-pink-300
+}
+
+h1{
+  font-family: 'Paytone One'
+}
+
+div.hac{
+  font-family:'Josefin Sans'
+}
+
+div.line{
+  border-width:1px;
+  border-color:#000000;
+}
+
+div.line-b{
+  border-width:2px;
+  border-color:#000000;
+}
+
+
+img.putin{
+  margin-top:3px;
+  width: 835px;
+  height: 521px;
+  padding:16px;
+  border-radius:23px;
+}
+
+h5{
+  position: absolute;
+width: 637px;
+height: 518px;
+
+font-family: 'Lobster';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 90px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+img.benzema{
+
+  width: 532px;
+  height: 478px;
+  border-radius: 23px;
+}
+
+img.mls-sg{
+
+width: 888.64px;
+height: 472px;
+border-radius: 23px;
+margin-top:1%;
+}
+
+h9{
+width: 531px;
+height: 217px;
+font-family: 'Lobster';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+display: flex;
+align-items: center;
+color: #000000;
+
+}
+
+h7{
+  position: absolute;
+width: 875px;
+height: 220px;
+left: 950px;
+top: 1200px;
+
+font-family: 'Lobster';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 60px;
+
+color: #000000;
+
+}
+
+h10{
+width: 875px;
+height: 220px;
+
+font-family: 'Lobster';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 60px;
+
+color: #000000;
+}
+
+img.manliv{
+  width: 835px;
+  height: 521px;
+border-radius:23px;
+}
+
+h11{
+  width: 570px;
+height: 478px;
+font-family: 'Lobster';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 90px;
+
+color: #000000;
+}
+
+h13{
+  width: 524px;
+height: 201px;
+font-family: 'Lobster';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 60px;
+
+color: #000000;
+}
