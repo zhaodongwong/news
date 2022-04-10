@@ -1,26 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pavanam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body{
-  @apply bg-gradient-to-br from-sky-400 to-pink-300
-}
-
-h1{
+h2{
   font-family: 'Paytone One'
 }
 
-div.hac{
+ul{
   font-family:'Josefin Sans'
 }
 
 div.line{
   border-width:1px;
-  border-color:#000000;
+  border-color: rgb(168 162 158);
 }
 
 div.line-b{
@@ -35,10 +34,15 @@ img.putin{
   height: 521px;
   padding:16px;
   border-radius:23px;
+  transition:0.5s;
+}
+
+img.putin:hover{
+  width: 880px;
+  height: 570px;
 }
 
 h5{
-  position: absolute;
 width: 637px;
 height: 518px;
 
@@ -53,19 +57,31 @@ color: #000000;
 }
 
 img.benzema{
-
   width: 532px;
   height: 478px;
   border-radius: 23px;
+  transition:0.5s
+}
+
+img.benzema:hover{
+  width: 580px;
+  height: 500px;
 }
 
 img.mls-sg{
-
 width: 888.64px;
 height: 472px;
 border-radius: 23px;
 margin-top:1%;
+transition:0.5s;
 }
+
+img.mls-sg:hover{
+  width: 920px;
+  height: 530px;
+  border-radius: 23px;
+  margin-top:1%;
+  }
 
 h9{
 width: 531px;
@@ -115,6 +131,12 @@ img.manliv{
   width: 835px;
   height: 521px;
 border-radius:23px;
+transition: 0.5s;
+}
+
+img.manliv:hover{
+  width: 890px;
+  height: 570px;
 }
 
 h11{
@@ -139,4 +161,9 @@ font-size: 48px;
 line-height: 60px;
 
 color: #000000;
+}
+
+img.abcdefg{
+  width:1000px;
+  height:750px;
 }
